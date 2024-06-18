@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D4F4DD; /* Primary Color */
+    color: #333; /* Text Color */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #295857; /* Header Background Color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 955px;
+    border: 2px solid black;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: scroll;
+    margin-bottom: 23px;
+    background-color: white; /* Secondary Color */
+    border-radius: 10px;
+}
+
+.message {
+    background-color: #f2f2f2; /* Message Background Color */
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.left {
+    clear: both;
+}
+
+.right {
+    clear: both;
+    text-align: right;
+}
+
+.send {
+    text-align: center;
+}
+
+#messageInp {
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    height: 34px;
+    padding: 5px 10px;
+    background-color: #32C35B; /* Button Background Color */
+    color: white;
+}
+
+.btn:hover {
+    background-color: #32C35B; /* Button Background Color on Hover */
+}
